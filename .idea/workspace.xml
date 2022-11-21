@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b6a5ee8-0a24-472f-bc18-4a8bdd98c61e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Stack/maxDepthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sorting/findDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sorting/squaresofSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Sorting/findDifferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Sorting/sortArraybyParityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Sorting/squaresofSortedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Stack/removeDuplicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Stack/validParenthesisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Sorting/mergesortedarray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Sorting/threesum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Stack/maxDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Stack/maxDepthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +59,99 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.Sorting" />
       <recent name="org.example.Stack" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.squaresofSortedArrayTest.sortedSquares">
+    <configuration name="findDifferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software_Testing_final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Sorting.findDifferenceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findDifferenceTest.finddifference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software_Testing_final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Sorting.findDifferenceTest" />
+      <option name="METHOD_NAME" value="finddifference" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="removeDuplicateTest.removeduplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software_Testing_final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Stack" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Stack.removeDuplicateTest" />
+      <option name="METHOD_NAME" value="removeduplicates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sortArraybyParityTest.sortarrayByparity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software_Testing_final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Sorting.sortArraybyParityTest" />
+      <option name="METHOD_NAME" value="sortarrayByparity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="squaresofSortedArrayTest.sortedSquares" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software_Testing_final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Sorting.squaresofSortedArrayTest" />
+      <option name="METHOD_NAME" value="sortedSquares" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.squaresofSortedArrayTest.sortedSquares" />
+        <item itemvalue="JUnit.sortArraybyParityTest.sortarrayByparity" />
+        <item itemvalue="JUnit.removeDuplicateTest.removeduplicates" />
+        <item itemvalue="JUnit.findDifferenceTest.finddifference" />
+        <item itemvalue="JUnit.findDifferenceTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669017337095</updated>
-      <workItem from="1669017338507" duration="6838000" />
+      <workItem from="1669017338507" duration="13428000" />
     </task>
     <servers />
   </component>
