@@ -9,6 +9,16 @@ class validParenthesisTest {
     @Test
     void isValid() {
         validParenthesis v=new validParenthesis();
-        assertEquals(true,v.isValid("()"),"valid parenthesis Test successful");
+
+
+        //test paths
+        assertFalse(v.isValid("("), "valid parenthesis Test successful");
+        assertTrue(v.isValid("()"), "valid parenthesis Test successful");
+        //prime paths
+        assertFalse(v.isValid(")("), "valid parenthesis Test successful");
+        assertFalse(v.isValid(")"), "valid parenthesis Test successful");
+        assertTrue(v.isValid(""), "valid parenthesis Test successful");
+        assertFalse(v.isValid("(("), "valid parenthesis Test successful");
+        assertTrue(v.isValid(""), "valid parenthesis Test successful");
     }
 }
