@@ -6,11 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5b6a5ee8-0a24-472f-bc18-4a8bdd98c61e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Stack/maxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Stack/maxDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Stack/validParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Stack/validParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Stack/maxDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Stack/maxDepthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Stack/removeDuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Stack/removeDuplicateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Stack/validParenthesisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Stack/validParenthesisTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Sorting/findDifferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Sorting/findDifferenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Sorting/sortArraybyParityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Sorting/sortArraybyParityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Sorting/squaresofSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Sorting/squaresofSortedArrayTest.java" afterDir="false" />
+>>>>>>> 627c09321690f344a91051a841f8967212a63908
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/math/CountPrimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/math/CountPrimesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ashutoshsoni/Desktop/IIIT-Bangalore/Sem 3/Software Testing/Software-Testing"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -53,7 +61,11 @@
       <recent name="org.example.Stack" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.validParenthesisTest.isValid">
+=======
+  <component name="RunManager" selected="JUnit.squaresofSortedArrayTest.sortedSquares">
+>>>>>>> 627c09321690f344a91051a841f8967212a63908
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Software-Testing" />
@@ -67,6 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="maxDepthTest.maxdepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software_Testing_final" />
       <extension name="coverage">
@@ -78,11 +91,25 @@
       <option name="PACKAGE_NAME" value="org.example.Stack" />
       <option name="MAIN_CLASS_NAME" value="org.example.Stack.maxDepthTest" />
       <option name="METHOD_NAME" value="maxdepth" />
+=======
+    <configuration name="findDifferenceTest.finddifference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Sorting.findDifferenceTest" />
+      <option name="METHOD_NAME" value="finddifference" />
+>>>>>>> 627c09321690f344a91051a841f8967212a63908
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="removeDuplicateTest.removeduplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software_Testing_final" />
       <extension name="coverage">
@@ -94,11 +121,25 @@
       <option name="PACKAGE_NAME" value="org.example.Stack" />
       <option name="MAIN_CLASS_NAME" value="org.example.Stack.removeDuplicateTest" />
       <option name="METHOD_NAME" value="removeduplicates" />
+=======
+    <configuration name="sortArraybyParityTest.sortarrayByparity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Sorting.sortArraybyParityTest" />
+      <option name="METHOD_NAME" value="sortarrayByparity" />
+>>>>>>> 627c09321690f344a91051a841f8967212a63908
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="validParenthesisTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software_Testing_final" />
       <extension name="coverage">
@@ -110,6 +151,19 @@
       <option name="PACKAGE_NAME" value="org.example.Stack" />
       <option name="MAIN_CLASS_NAME" value="org.example.Stack.validParenthesisTest" />
       <option name="METHOD_NAME" value="isValid" />
+=======
+    <configuration name="squaresofSortedArrayTest.sortedSquares" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Sorting.squaresofSortedArrayTest" />
+      <option name="METHOD_NAME" value="sortedSquares" />
+>>>>>>> 627c09321690f344a91051a841f8967212a63908
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,9 +171,15 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.validParenthesisTest.isValid" />
         <item itemvalue="JUnit.removeDuplicateTest.removeduplicates" />
         <item itemvalue="JUnit.maxDepthTest.maxdepth" />
+=======
+        <item itemvalue="JUnit.squaresofSortedArrayTest.sortedSquares" />
+        <item itemvalue="JUnit.sortArraybyParityTest.sortarrayByparity" />
+        <item itemvalue="JUnit.findDifferenceTest.finddifference" />
+>>>>>>> 627c09321690f344a91051a841f8967212a63908
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -133,6 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669017337095</updated>
       <workItem from="1669017338507" duration="13428000" />
+      <workItem from="1669099762442" duration="9555000" />
     </task>
     <servers />
   </component>

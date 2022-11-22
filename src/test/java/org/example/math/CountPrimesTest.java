@@ -11,7 +11,5 @@ class CountPrimesTest {
     @Test
     void countPrimes() {
         assertEquals(4, c.countPrimes(10));
-
-
     }
 }
