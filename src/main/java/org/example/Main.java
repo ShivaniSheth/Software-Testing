@@ -4,58 +4,144 @@ import org.example.math.*;
 import java.util.Scanner;
 import java.util.Stack;
 import org.example.Stack.*;
+import org.example.Sorting.*;
+import org.example.math.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(new CountPrimes().countPrimes(45));
-//        Scanner sc = new Scanner(System.in);
-//        int choice = 0;
-//        boolean flag=true;
-//        while(flag)
-//        {
-//            System.out.println("enter 1 for stack operations 2 for sorting 3 for  exit::");
-//            choice= sc.nextInt();
-//            switch (choice) {
-//                case 1:
-//                    System.out.println("enter choice: 1 for maxDepth \n enter 2 for removeDuplicate \n enter 3 for valid parenthesis::");
-//                    int ch=sc.nextInt();
-//                    switch (ch){
-//                        case 1:
-//                            System.out.println("enter a string:");
-//                            String s=sc.next();
-//
-//                            new maxDepth().maxdepth(s);
-//                            break;
-//                        case 2:
-//                            System.out.println("enter a string:");
-//                            String s1=sc.next();
-//                            new removeDuplicate().removeduplicates(s1);
-//                            break;
-//                        case 3:
-//                            System.out.println("enter a string:");
-//                            String s2=sc.next();
-//                            new validParenthesis().isValid(s2);
-//                            break;
-//                        default:
-//                            System.out.println("entered wrong input");
-//                    }
-//
-//
-//
-//                case 2:
-////
-//
-//                case 3:
-//                    flag=false;
-//                    System.out.println("exiting");
-//                    break;
-//                default:
-//                    System.out.println("wrong input entered");
-//            }
-//
-//
-//
-//        }
+//        System.out.println(new CountPrimes().countPrimes(45));
+        Scanner sc = new Scanner(System.in);
+        int choice = 0;
+        boolean flag=true;
+        while(flag)
+        {
+            System.out.println(" enter 1:stack operations \n enter 2:for sorting operations \n enter 3:math operations \n enter 4:exit");
+            System.out.println("enter your choice::");
+            choice= sc.nextInt();
+            switch (choice) {
+                case 1://Stack Operations
+                    System.out.println("enter 1:MaxDepth of  \n enter 2:RemoveDuplicate from string \n enter 3:Check for valid parenthesis");
+                    System.out.println("Enter your choice::");
+                    int ch=sc.nextInt();
+                    switch (ch){
+                        case 1:
+                            System.out.println("enter a string:");
+                            String s=sc.next();
+                            new maxDepth().maxdepth(s);
+                            break;
+                        case 2:
+                            System.out.println("enter a string:");
+                            String s1=sc.next();
+                            new removeDuplicate().removeduplicates(s1);
+                            break;
+                        case 3:
+                            System.out.println("enter a string:");
+                            String s2=sc.next();
+                            new validParenthesis().isValid(s2);
+                            break;
+                        default:
+                            System.out.println("entered wrong choice!!");
+                    }
+                    break;
+
+
+
+                case 2://Sorting Operations
+                    System.out.println("enter 1:Find Difference of Strings  \n enter 2:Sort Array by parity \n enter 3:Squares of Sorted Array");
+                    System.out.println("Enter your choice::");
+                    int ch1=sc.nextInt();
+                    switch (ch1){
+                        case 1:
+                            System.out.println("enter string1 :");
+                            String s1=sc.next();
+                            System.out.println("enter string2 :");
+                            String s2=sc.next();
+                            new findDifference().finddifference(s1,s2);
+                            break;
+                        case 2:
+                            System.out.println("Enter array length: ");
+                            int len = sc.nextInt();
+                            int arr[] = new int[len];
+                            System.out.println("Enter numbers: ");
+                            for(int u=0;u<len;u++){
+                                arr[u] = sc.nextInt();
+                            }
+                            new sortArraybyParity().sortarrayByparity(arr);
+                            break;
+                        case 3:
+                            System.out.println("Enter array length: ");
+                            int len1 = sc.nextInt();
+                            int arr1[] = new int[len1];
+                            System.out.println("Enter numbers: ");
+                            for(int u=0;u<len1;u++){
+                                arr1[u] = sc.nextInt();
+                            }
+                            new squaresofSortedArray().sortedSquares(arr1);
+                            break;
+                    }
+                    break;
+                case 3://Math operations
+                    System.out.println("enter 1:Count Primes  \n enter 2:Integer to Roman \n enter 3:Missing Number \n enter 4:Rotate Image");
+                    System.out.println("Enter your choice::");
+                    int ch2=sc.nextInt();
+                    switch (ch2){
+                        case 1:
+                            System.out.println("enter a number:");
+                            int x=sc.nextInt();
+                            new CountPrimes().countPrimes(x);
+                            break;
+                        case 2:
+                            System.out.println("enter a number:");
+                            int y=sc.nextInt();
+                            new IntegerToRoman().intToRoman(y);
+                            break;
+                        case 3:
+                            System.out.println("Enter array length: ");
+                            int len1 = sc.nextInt();
+                            int arr1[] = new int[len1];
+                            System.out.println("Enter numbers: ");
+                            for(int u=0;u<len1;u++){
+                                arr1[u] = sc.nextInt();
+                            }
+                            new MissingNo().missingNumber(arr1);
+                            break;
+                        case 4:
+                            System.out.println("enter rows of matrix");
+                            int rows=sc.nextInt();
+                            System.out.println("enter cols of matrix:");
+                            int col=sc.nextInt();
+                            int arr2[][]=new int[rows][col];
+                            System.out.println("enter numbers: ");
+                            for(int i=0;i<rows;i++)
+                            {
+                                for(int j=0;j<col;j++)
+                                {
+                                    arr2[i][j]=sc.nextInt();
+                                }
+                            }
+                            new RotateImage().rotate(arr2);
+                            break;
+                        default:
+                            System.out.println("entered wrong choice!!");
+                            break;
+
+
+                    }
+                    break;
+
+
+
+                case 4:
+                    flag=false;
+                    System.out.println("exiting");
+                    break;
+                default:
+                    System.out.println("wrong input entered");
+            }
+
+
+
+        }
     }
 }
