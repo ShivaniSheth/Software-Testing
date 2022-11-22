@@ -9,7 +9,14 @@ class MissingNoTest {
     @Test
 
     void missingNumber() {
-        int arr[] = {1,2,4,0};
-        assertEquals(3, obj.missingNumber(arr));
+        int arr1[] = {1,0};
+        int arr2[] = {0};
+        int arr3[] = {};
+
+        //edge coverage
+        assertEquals(1, obj.missingNumber(arr2));
+        //prime path coverage
+        assertEquals(2, obj.missingNumber(arr1));
+        assertEquals(0, obj.missingNumber(arr3));
     }
 }

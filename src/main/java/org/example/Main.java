@@ -82,7 +82,7 @@ public class Main {
                     }
                     break;
                 case 3://Math operations
-                    System.out.println("enter 1:Count Primes  \n enter 2:Integer to Roman \n enter 3:Missing Number \n enter 4:Rotate Image");
+                    System.out.println("enter 1:Count Primes  \n enter 2:Integer to Roman \n enter 3:Missing Number ");
                     System.out.println("Enter your choice::");
                     int ch2=sc.nextInt();
                     switch (ch2){
@@ -106,22 +106,7 @@ public class Main {
                             }
                             new MissingNo().missingNumber(arr1);
                             break;
-                        case 4:
-                            System.out.println("enter rows of matrix");
-                            int rows=sc.nextInt();
-                            System.out.println("enter cols of matrix:");
-                            int col=sc.nextInt();
-                            int arr2[][]=new int[rows][col];
-                            System.out.println("enter numbers: ");
-                            for(int i=0;i<rows;i++)
-                            {
-                                for(int j=0;j<col;j++)
-                                {
-                                    arr2[i][j]=sc.nextInt();
-                                }
-                            }
-                            new RotateImage().rotate(arr2);
-                            break;
+
                         default:
                             System.out.println("entered wrong choice!!");
                             break;
