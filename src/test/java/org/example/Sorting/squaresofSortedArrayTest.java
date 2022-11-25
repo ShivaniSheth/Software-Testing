@@ -42,5 +42,16 @@ squaresofSortedArray s=new squaresofSortedArray();
         list1=new int[]{-4,1,2};
         list2=new int[]{1,4,16};
         assertArrayEquals(list2,s.sortedSquares(list1));
+
+        //other test cases
+
+        list1 = new int[]{-4,-1,0,3,10};
+        list2 = new int[]{0,1,9,16,100};
+        assertArrayEquals(list2,s.sortedSquares(list1));
+
+        list1 = new int[]{2,8,9,10};
+        list2 = new int[]{4,64,81,100};
+        assertArrayEquals(list2,s.sortedSquares(list1));
+
     }
 }
