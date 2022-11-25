@@ -7,7 +7,7 @@ import org.example.Stack.*;
 import org.example.Sorting.*;
 import org.example.math.*;
 
-public class Main {
+public class    Main {
     public static void main(String[] args) {
 
 //        System.out.println(new CountPrimes().countPrimes(45));
@@ -82,7 +82,7 @@ public class Main {
                     }
                     break;
                 case 3://Math operations
-                    System.out.println("enter 1:Count Primes  \n enter 2:Integer to Roman \n enter 3:Missing Number ");
+                    System.out.println("enter 1:Count Primes  \nenter 2:Integer to Roman \nenter 3:Missing Number \nenter 34: Max no of Point on the straight line");
                     System.out.println("Enter your choice::");
                     int ch2=sc.nextInt();
                     switch (ch2){
@@ -106,7 +106,20 @@ public class Main {
                             }
                             new MissingNo().missingNumber(arr1);
                             break;
+                        case 4:
+                            System.out.println("Enter no of points: ");
+                            int row = sc.nextInt();
 
+                            System.out.println("Enter points coordinates: ");
+                            int arr[][] = new int[row][2];
+                            for( int i=0;i<row;i++ ){
+                                for ( int j=0;j<2;j++ ){
+                                    int temp = sc.nextInt();
+                                    arr[i][j] = temp;
+                                }
+                            }
+                            new MaxPoint().maxPoints(arr);
+                            break;
                         default:
                             System.out.println("entered wrong choice!!");
                             break;

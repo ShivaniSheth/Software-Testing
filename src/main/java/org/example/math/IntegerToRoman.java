@@ -11,14 +11,14 @@ public class IntegerToRoman {
         while(num>0){
 
             while(value[i]<=num){
-                System.out.println("*");
+
                 sol += romanWord[i];
                 num -= value[i];
 
             }
             i--;
         }
-        System.out.println(sol);
+
         return sol;
     }
 }

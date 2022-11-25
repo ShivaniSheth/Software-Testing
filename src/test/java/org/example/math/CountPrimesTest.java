@@ -15,6 +15,7 @@ CountPrimes c=new CountPrimes();
         assertEquals(2,c.countPrimes(5));
         // prime path coverage
         assertEquals(0,c.countPrimes(2));
+        //other test cases
 
 }
 }
