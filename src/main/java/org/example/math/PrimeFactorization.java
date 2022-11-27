@@ -1,4 +1,4 @@
-package com.stp.Maths;
+package org.example.math;
 
 import java.util.*;
 

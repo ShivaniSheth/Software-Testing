@@ -1,4 +1,4 @@
-package com.stp.Sort;
+package org.example.Sorting;
 
 // Implementation of Counting Sort
 

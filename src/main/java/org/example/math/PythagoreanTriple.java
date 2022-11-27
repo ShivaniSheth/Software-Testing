@@ -1,4 +1,4 @@
-package com.stp.Maths;
+package org.example.math;
 
 // This class checks if 3 numbers form a Pythagorean triple or not
 
