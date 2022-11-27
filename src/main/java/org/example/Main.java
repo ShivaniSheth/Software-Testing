@@ -159,16 +159,18 @@ public class    Main {
                             new MaxPoint().maxPoints(arr);
                             break;
                         case 5:
+                            System.out.println(" Enter number :");
+                            int ans= sc.nextInt();;
+                            new MagicSquare().magicsquare(ans);
+                            break;
+
+                        case 6:
                             System.out.println(" Enter no: ");
                             int no=sc.nextInt();
-                            int a[] = new int[no];
-                            System.out.println(" Enter numbers: ");
-                            for(int u=0;u<no;u++){
-                                a[u] = sc.nextInt();
-                            }
                             new PrimeFactorization().primeFactorization(no);
                             break;
-                        case 6:
+
+                        case 7:
                             System.out.println(" Enter no 1 :");
                             int x1= sc.nextInt();
                             System.out.println(" Enter no 2 :");
@@ -176,11 +178,6 @@ public class    Main {
                             System.out.println(" Enter no 3 :");
                             int z1=sc.nextInt();
                             new PythagoreanTriple().pythagoreantriple(x1,y1,z1);
-                            break;
-                        case 7:
-                            System.out.println(" Enter number :");
-                            int ans= sc.nextInt();;
-                            new MagicSquare().magicsquare(ans);
                             break;
                         default:
                             System.out.println(" Entered wrong choice!!");

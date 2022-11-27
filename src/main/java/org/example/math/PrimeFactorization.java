@@ -24,7 +24,6 @@ public class PrimeFactorization {
             while (n % i == 0) {
                 if(flag==0){
                     res.add(i);
-                    flag=1;
                 }
                 n /= i;
             }
